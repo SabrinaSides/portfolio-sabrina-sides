@@ -1,0 +1,35 @@
+.contact-links {
+  text-align: center;
+}
+
+form label {
+  display: flex;
+  font-size: 18px;
+  margin-top: 10px;
+  color: black;
+  font-family: 'Roboto', sans-serif, 'Trebuchet MS', sans-serif;
+}
+
+form input[type='text'] {
+  display: flex;
+  color: #000;
+  background-color: white;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+form textarea {
+  display: flex;
+  height: 100px;
+  width: 400px;
+  color: #000;
+  background-color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #cd5c5c;
+  color: white;
+  padding: 8px;
+}

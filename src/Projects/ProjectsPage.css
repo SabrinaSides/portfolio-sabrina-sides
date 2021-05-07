@@ -1,0 +1,17 @@
+.projects {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-project {
+  width: 20%;
+  height: 60%;
+}
+
+/* Desktop adjustments */
+@media all and (min-width: 600px) {
+  .projects {
+    flex-direction: row;
+  }
+}

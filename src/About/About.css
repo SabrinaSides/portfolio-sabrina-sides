@@ -1,0 +1,40 @@
+.about-container {
+  padding-top: 2%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.about-img-okc {
+  min-width: 350px;
+  min-height: 200px;
+  height: 40%;
+  width: 40%;
+  margin: 10px;
+}
+
+.about-img-bike {
+  min-width: 200px;
+  min-height: 250px;
+  height: 25%;
+  width: 25%;
+  margin: 10px;
+}
+
+.text {
+  max-width: 50%;
+}
+
+/* Desktop adjustments */
+@media all and (min-width: 600px) {
+  .section {
+    flex-direction: row;
+  }
+}
