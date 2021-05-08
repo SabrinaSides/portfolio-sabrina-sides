@@ -18,7 +18,7 @@ export default function About() {
           the world through web development. I am a software developer
           proficient in HTML, CSS, JavaScript and React. I have a strong
           interest in creating and contributing to web experiences that inspire
-          health and happiness.
+          health and happiness. 
         </p>
         <img src={OKC} alt="Placeholder" className="about-img-okc" />
       </div>
