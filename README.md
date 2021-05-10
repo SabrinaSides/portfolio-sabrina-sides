@@ -5,7 +5,7 @@
 <p>Check out my portfolio to see everything I've accomplished as a software developer so far.</p>
 
 <h2>See It Live</h2>
-<a href='https://sabrinasides.github.io/portfolio-sabrina-sides/' target='_blank'>Sabrina's Portfolio</a>
+<a href='portfolio-sabrina-sides.vercel.app' target='_blank'>Sabrina's Portfolio</a>
 
 <h3>Languages</h3>
 <ul>
