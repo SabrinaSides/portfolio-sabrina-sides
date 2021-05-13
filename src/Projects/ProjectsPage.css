@@ -9,9 +9,13 @@
   height: 60%;
 }
 
+hr {
+  width: 80%;
+}
+
 /* Desktop adjustments */
 @media all and (min-width: 600px) {
   .projects {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
