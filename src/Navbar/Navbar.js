@@ -1,22 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import styled from 'styled-components'
+import Burger from './Burger'
+
+const Nav = styled.nav`
+  width: 100%;
+  height: 55px;
+  padding: 0 20px;
+  border-bottom: solid thick #6c6d5b;
+  display: flex;
+  justify-content: space-between;
+
+  .logo{
+    padding-top: 5px;
+    color: #353439;
+    font-size: 45px;
+
+    @media(max-width: 768px){
+      font-size: 40px;
+    }
+  }
+`
 
 function Navbar() {
-  return (
-    <div className="navbar-container">
-      <Link to="/">
-        <h3 className='header-name'>Sabrina Sides</h3>
-      </Link>
-      <div className="navbar-links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-
-        <Link to="/contact">Contact</Link>
+  return(
+    <Nav>
+      <div className='logo'>
+        Sabrina Sides
       </div>
-    </div>
-  );
+      <Burger />
+    </Nav>
+  )
 }
 
 export default Navbar;

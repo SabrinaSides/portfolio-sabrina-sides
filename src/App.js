@@ -11,11 +11,8 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <nav>
           <Navbar />
-        </nav>
       </header>
-      <div className="nav-border" />
       <main className="page-content">
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={About} />
@@ -23,7 +20,7 @@ function App() {
         <Route path="/contact" component={Contact} />
       </main>
     </div>
-  );
+  )
 }
 
 export default App;

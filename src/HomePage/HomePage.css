@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: fixed;
+  /* position: fixed; */
   padding-top: 5%;
 }
 
