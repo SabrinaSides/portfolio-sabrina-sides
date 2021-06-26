@@ -41,16 +41,16 @@ p {
 }
 
 a:link {
-  color: #7d735d;
+  color: #493a37;
   padding: 10px;
 }
 
-a:hover {
-  color: #353439;
+a:visited {
+  color: black;
 }
 
-a:visited {
-  color: #cd5c5c;
+a:hover {
+  color: #b93939;
 }
 
 .page-content {
