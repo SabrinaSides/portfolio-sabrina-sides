@@ -13,10 +13,10 @@ const Nav = styled.nav`
   .logo{
     padding-top: 5px;
     color: #353439;
-    font-size: 45px;
+    font-size: 40px;
 
-    @media(max-width: 768px){
-      font-size: 40px;
+    @media(min-width: 768px){
+      font-size: 45px;
     }
   }
 `

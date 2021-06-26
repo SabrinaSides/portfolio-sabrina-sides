@@ -8,7 +8,6 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   text-decoration: none;
   background-color: #faf6f3;
-  border-left: dashed thin #6c6d5b;
 
   li {
     padding: 18px 10px;
@@ -25,7 +24,7 @@ const Ul = styled.ul`
     width: 125px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
-    color: black;
+    border-left: dashed thin #6c6d5b;
 
     li {
       background-color: #c28e76;
@@ -39,7 +38,7 @@ const StyledLink = styled(Link)`
     background-color: #faf6f3;
 
     @media(max-width: 768px){
-        color: #353439;
+        color: black;
         background-color: #c28e76;
     }
 `
