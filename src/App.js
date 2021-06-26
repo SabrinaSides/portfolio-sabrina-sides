@@ -9,18 +9,18 @@ import Contact from './Contact/Contact';
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
-          <Navbar />
+    <div className='app'>
+      <header className='app-header'>
+        <Navbar />
       </header>
-      <main className="page-content">
-        <Route exact path="/" component={HomePage} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={ProjectsPage} />
-        <Route path="/contact" component={Contact} />
+      <main className='page-content'>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/about' component={About} />
+        <Route path='/projects' component={ProjectsPage} />
+        <Route path='/contact' component={Contact} />
       </main>
     </div>
-  )
+  );
 }
 
 export default App;

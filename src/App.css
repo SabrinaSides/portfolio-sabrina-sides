@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   color: #353439;
   margin-bottom: 5px;
@@ -65,6 +65,10 @@ a:visited {
 @media (min-width: 768px) {
   h1 {
     font-size: 80px;
+  }
+
+  h2 {
+    font-size: 60px;
   }
 
   .page-content {
