@@ -12,8 +12,8 @@ export default function HomePage() {
         />
       <div className='titles'>
         <h1>Sabrina Sides</h1>
-        <h3>Front-end Software Developer</h3>
-        <h4>HTML, CSS, JavaScript, React</h4>
+        <h3>Software Developer</h3>
+        <h4>HTML, CSS, JavaScript, React, Node, Express, PostgreSQL</h4>
       </div>
     </div>
   );
