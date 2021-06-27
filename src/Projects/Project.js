@@ -9,12 +9,16 @@ export default function Project(props) {
       <p>{props.description}</p>
       <p>Skills used: {props.skills}</p>
       <a href={props.urlRepo} target="_blank" rel="noreferrer">
-        GitHub Repo
+        GitHub: Client
       </a>
+      {props.urlServerRepo && <a href={props.urlServerRepo} target="_blank" rel="noreferrer">
+        GitHub: Server
+      </a> }
+
       <br />
       <br />
       <a href={props.urlLive} target="_blank" rel="noreferrer">
-        Live project
+        Live Project
       </a>
     </div>
   );

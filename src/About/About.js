@@ -16,7 +16,7 @@ export default function About() {
           <p>
           Formerly an ICU nurse, I am now learning how to make a difference in
           the world through web development. I am a software developer
-          proficient in HTML, CSS, JavaScript and React. I have a strong
+          proficient in HTML, CSS, JavaScript, React, Node, Express and PostgreSQL. I have a strong
           interest in creating and contributing to web experiences that inspire
           health and happiness.
         </p>
@@ -33,7 +33,7 @@ export default function About() {
           learning software development.
           </p>
           <img src={SabrinaBike} alt='Sabrina on bike' className='about-img-bike' />
-          <p>I have developed projects using HTML, CSS, JavaScript, React, Node and PostgreSQL.
+          <p>I have developed projects using HTML, CSS, JavaScript, React, Node, Express and PostgreSQL.
           I am constantly working on adding more languages and skills to my
           repertoire. I can contribute to your company using my front-end
           expertise as I continue to develop my full-stack knowledge.
