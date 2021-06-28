@@ -15,10 +15,6 @@
   padding-top: 5%;
 }
 
-.titles {
-  padding-left: 20px;
-}
-
 /* Desktop adjustments */
 @media (min-width: 768px) {
   .home-page {
@@ -28,5 +24,9 @@
   .profile-img {
     width: 50vh;
     height: 70vh;
+  }
+
+  .titles {
+    padding-left: 20px;
   }
 }
