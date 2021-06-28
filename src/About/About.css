@@ -27,6 +27,9 @@ section {
 
 p {
   text-indent: 2em;
+}
+
+p.last {
   padding-bottom: 20px;
 }
 
@@ -34,5 +37,9 @@ p {
 @media (min-width: 768px) {
   p {
     text-align: center;
+  }
+
+  .about-container {
+    padding: 5% 10%;
   }
 }
