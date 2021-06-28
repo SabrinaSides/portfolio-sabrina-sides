@@ -12,9 +12,9 @@ section {
 }
 
 .about-img-okc {
-  width: 45vh;
-  height: 25vh;
-  margin: 10px;
+  width: 50vh;
+  height: 20vh;
+  margin-bottom: 10px;
   border-radius: 2%;
 }
 
@@ -29,17 +29,28 @@ p {
   text-indent: 2em;
 }
 
-p.last {
+p:last-of-type {
   padding-bottom: 20px;
 }
 
 /* Desktop adjustments */
 @media (min-width: 768px) {
-  p {
-    text-align: center;
-  }
-
   .about-container {
     padding: 5% 10%;
+  }
+
+  .about-img-okc {
+    width: 100vh;
+    height: 30vh;
+    margin: 10px;
+    border-radius: 2%;
+  }
+
+  .about-img-bike {
+    display: none;
+  }
+
+  p {
+    padding: 5px;
   }
 }

@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   color: #353439;
   margin-bottom: 5px;
@@ -27,7 +27,7 @@ h3 {
   text-align: center;
   margin: 1px;
   margin-bottom: 5px;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 h4 {
@@ -69,6 +69,10 @@ a:hover {
 
   h2 {
     font-size: 60px;
+  }
+
+  h3 {
+    font-size: 35px;
   }
 
   .page-content {

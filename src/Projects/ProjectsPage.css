@@ -22,6 +22,10 @@ hr {
 
 /* Desktop adjustments */
 @media (min-width: 768px) {
+  .projects-container {
+    padding: 5% 10%;
+  }
+
   .img-project {
     width: 45vh;
     height: 45vh;

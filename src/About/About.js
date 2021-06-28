@@ -9,10 +9,11 @@ export default function About() {
       <h2>Hello There!</h2>
       <br />
       <section>
-        <p>
+      <img src={OKC} alt='OKC skyline' className='about-img-okc' />
+        <h3>
           My name is Sabrina and I'm a software developer living in Oklahoma
           City, Oklahoma.
-          </p>
+          </h3>
           <p>
           Formerly an ICU nurse, I am now learning how to make a difference in
           the world through web development. I am a software developer
@@ -20,9 +21,7 @@ export default function About() {
           interest in creating and contributing to web experiences that inspire
           health and happiness.
         </p>
-        <img src={OKC} alt='OKC skyline' className='about-img-okc' />
-      </section>
-      <section>
+        <img src={SabrinaBike} alt='Sabrina on bike' className='about-img-bike' />
         <p>
           In the summer of 2020, I rode my bike up 100,000 feet of elevation. I
           wish I could say I rode my bike up actual mountains, but it turns out
@@ -32,7 +31,6 @@ export default function About() {
           courage to take the first step. I applied the same courage and grit to
           learning software development.
           </p>
-          <img src={SabrinaBike} alt='Sabrina on bike' className='about-img-bike' />
           <p>I have developed projects using HTML, CSS, JavaScript, React, Node, Express and PostgreSQL.
           I am constantly working on adding more languages and skills to my
           repertoire. I can contribute to your company using my front-end
