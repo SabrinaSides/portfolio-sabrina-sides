@@ -12,7 +12,7 @@ export default function Projects() {
       <h2>Projects</h2>
       <br />
       <div className='projects'>
-      <Project
+        <Project
           title='QuickReport'
           src={QuickReport}
           description='QuickReport is a full-stack PERN app designed to help nurses and other healthcare professionals take report (gather details) on their patients.'
@@ -36,7 +36,7 @@ export default function Projects() {
           title='National Parks Activity Search'
           src={NPProject}
           description='This app utilizes multiple APIs to help users find which national
-          parks support their favorites outdoor activities.'
+          parks support their favorite outdoor activities.'
           skills='HTML, CSS, JavaScript, jQuery'
           urlRepo='https://github.com/SabrinaSides/NationalParksActivitySearch'
           urlLive='https://sabrinasides.github.io/NationalParksActivitySearch'
