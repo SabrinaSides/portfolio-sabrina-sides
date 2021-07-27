@@ -4,6 +4,7 @@ import NPProject from '../images/NPProject.jpg';
 import Noteful from '../images/Noteful.jpeg';
 import QuickReport from '../images/QuickReport.png'
 import DinoQuiz from '../images/DinoQuiz.png'
+import GitIt from '../images/GitIt.png'
 import './ProjectsPage.css';
 
 export default function Projects() {
@@ -12,6 +13,16 @@ export default function Projects() {
       <h2>Projects</h2>
       <br />
       <div className='projects'>
+      <Project
+          title='Git It Merch Shop'
+          src={GitIt}
+          description='Git It is a full-stack PERN app designed as a mock coding-related merch site. Git It allows users to view products, add and delete items from their shopping cart and complete a demo checkout process.'
+          skills='HTML, CSS, JavaScript, React, Express, Node, PostgreSQL'
+          urlRepo='https://github.com/SabrinaSides/git-it-client'
+          urlServerRepo='https://github.com/SabrinaSides/git-it-server'
+          urlLive='https://git-it-sabrinasides.vercel.app/'
+        />
+        <hr />
         <Project
           title='QuickReport'
           src={QuickReport}
